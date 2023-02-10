@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="Generator">
+        <div class="headings">
+            <h2>Password Generator</h2>
+            <p><span style="color:red;font-weight: bolder;">HINT:</span> Please enter Type and Size before Generating
+                password.</p>
+        </div>
+        <div class="choice">
+            <label for="choices">Password Type :</label>
+            <select name="choices" id="select_choice" required>
+                <option value="">Select a Choice</option>
+                <option value="easy">easy</option>
+                <option value="medium">medium</option>
+                <option value="hard">hard</option>
+            </select>
+        </div>
+
+        <div class="length">
+            <label for="size">Password Size : </label>
+            <input type="text" name="size" class="pass_length" value="0" placeholder="Password size...">
+        </div>
+
+        <div class="generateBtn">
+            <button id="generate_pass_btn">Generate</button>
+        </div>
+
+        <div class="output">
+            <div class="result">
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
