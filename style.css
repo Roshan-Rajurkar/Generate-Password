@@ -27,7 +27,7 @@ body {
     text-align: center;
     margin: 10px;
     color: #0c0c0c;
-    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5),
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
         0px -4px 10px rgba(255, 255, 255, 0.5);
 }
 
@@ -37,12 +37,17 @@ body {
     text-align: center;
 }
 
-.headings>p>span{
+.headings>p>span {
     font-size: 13px;
 }
 
+option {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 15px;
+    
+}
 
-/* Password type*/
 .choice,
 .length {
     width: 100%;
@@ -80,7 +85,7 @@ body {
 label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    color: rgb(21, 82, 136);
+    color: rgb(18, 79, 133);
 }
 
 .generateBtn {
